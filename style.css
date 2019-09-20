@@ -1,0 +1,131 @@
+body {
+    background-color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+header {
+    font-family: 'Saira Stencil One', cursive;
+    color: #040A40;
+    font-size: 93px; 
+    margin-top: 10px; 
+    text-align: center; 
+    text-shadow:
+		-1px -1px 0 yellow,
+		1px -1px 0 yellow,
+		-1px 1px 0 orange,
+		1px 1px 0 yellow
+}
+
+#header2 {
+    color: #001642;
+    font-size: 19px; 
+    text-align: center; 
+    margin-top: -17px; 
+}
+
+.bg-image {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.elec1 { background-image: url("assets/images/elec1.jpg"); height: 100%; }
+.elec2 { background-image: url("assets/images/elec2.jpg"); height: 100%; }
+.elec3 { background-image: url("assets/images/elec3.jpg"); height: 100%; }
+.elec4 { background-image: url("assets/images/elec4.jpg"); height: 100%; }
+
+#first {
+    color: white;
+    border: 1.5px solid orange;
+    width: 320px; 
+    height: 190px; 
+    font-family: 'Khula', sans-serif;
+    font-size: 33px; 
+    background-color: #05021D;
+    opacity: 0.88; 
+    padding: 60px; 
+    border-radius: 5%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#res {
+    margin-top: 11px; 
+    margin-left: -5.5px; 
+}
+
+#com {
+    margin-top: 11px; 
+    margin-left: -9px; 
+}
+
+#ind {
+    margin-top: 11px; 
+    margin-left: -3px; 
+}
+
+#first:hover {
+    opacity: 0.6; 
+    border: 3.5px solid orange;
+}
+/* 
+#bio {
+    float: left; 
+    text-align: left;
+} */
+
+.background {
+    background-color: #191818; 
+    opacity: 0.95;
+    color: white;  
+    font-size: 20px; 
+    padding: 40px;
+    border-top: 2px solid white; 
+    border-bottom: 2px solid white; 
+}
+
+.background2 {
+    color: white;  
+    font-size: 20px; 
+    padding: 50px;
+    border-top: 2px solid white; 
+    text-align: center;
+}
+
+img {
+    display: inline; 
+}
+
+
+#services {
+    color: white;
+    font-size: 20px; 
+    background-color: #05021D;
+    opacity: 0.88; 
+    margin: 0 auto; 
+    padding: 35px; 
+    border-radius: 10%;
+    border: 1.5px solid orange;
+}
+
+#list1, #list2, #list3 {
+    margin: 0 auto; 
+}
+
+
+
+/* .fa-bolt {
+    float: right; 
+    font-size: 100px; 
+    margin-right: -120px;
+    margin-top: 200px; 
+} */
+
+/* #contact {
+    float: left; 
+    margin-top: -200px; 
+    color: black; 
+    font-size: 14px; 
+    position: fixed; 
+} */
